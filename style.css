@@ -127,11 +127,11 @@ ul li a:hover {
     gap: 1rem;
 }
 
-.about-main {
-    max-width: 95%;
+/* .about-main {
+    max-width: 100%;
     display: flex;
 
-}
+} */
 
 .about-text h1 {
     font-size: 3rem;
@@ -170,7 +170,7 @@ ul li a:hover {
     flex: 1;
     flex-wrap: wrap;
     
-    
+
 }
 
 .container div {
@@ -181,6 +181,7 @@ ul li a:hover {
     align-items: center;
     padding: 2rem;
     gap: 1rem;
+ 
 
 }
 
@@ -188,12 +189,12 @@ ul li a:hover {
     height:5rem;
 }
 
-.container-contact h1 {
+.contact h1 {
     font-size: 2rem;
     text-align: center;
     color: rgb(55, 121, 179);
 }
-.container-contact{
+.contact{
     width: 30rem;
     background-color: rgb(12, 13, 15);
     border-radius: 2rem;
@@ -213,7 +214,7 @@ ul li a:hover {
     background-color: rgb(48, 65, 82);
     cursor: pointer;
 }
-.container-contact input,textarea{
+.contact input,textarea{
     padding: 0.5rem 1rem;
 
 }
@@ -228,10 +229,11 @@ form{
     display: flex;
     flex-direction: column; 
     align-items: center;
+    width: 500px;
   
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .main img {
         width: 50%;
         height: auto;
